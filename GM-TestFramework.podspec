@@ -7,7 +7,8 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/mulgir-govind/GM-TestFramework"
   spec.license      = "MIT (Some)"
   spec.author             = { "mulgir-govind" => "govind.mulgir.17@gmail.com" }
-  spec.platform     = :ios, "16.4"
+  #spec.platform     = :ios, "16.4"
+  spec.ios.deployment_target = '16.4'
   spec.source       = { :git => "https://github.com/mulgir-govind/GM-TestFramework.git", :commit => "683bc321528a01b486ba387c9fd3ca39f737ad10" }
   spec.source_files  = "GM-TestFramework/**/*.{h,m}"
   spec.public_header_files = "GM-TestFramework/**/*.h"
